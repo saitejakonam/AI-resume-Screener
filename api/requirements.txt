@@ -1,0 +1,37 @@
+# FastAPI core
+fastapi
+uvicorn[standard]
+
+# MongoDB support
+pymongo
+
+# PostgreSQL + ORM
+sqlalchemy
+asyncpg
+alembic
+
+# Auth (can be removed if you're not using login anymore)
+passlib[bcrypt]
+python-jose[cryptography]
+
+# File uploads & parsing
+python-multipart
+cloudinary
+pdfminer.six
+python-docx
+pymupdf         # <- this is what provides `import fitz`
+
+# Environment variables
+python-dotenv
+
+# Validation & schema
+pydantic[email]
+
+# Resume ranking (you'll use soon)
+spacy
+scikit-learn
+
+google-generativeai
+opensearch-py
+
+redis
